@@ -10,8 +10,13 @@ $tiffany: #4AB7BD;
 $yellow:#FEC171;
 $panGreen: #30B08F;
 
+// Navbar
+$navbarHeight: 50px; // 顶部导航栏高度
+$tagsViewHeight: 34px; // 顶部标签栏高度
+
 // Sidebar
-$sideBarWidth: 210px;
+$sideBarWidth: 210px; // 侧边菜单栏宽度（正常显示时）
+$sideBarHiddenWidth: 54px; // 侧边菜单栏宽度（隐藏显示时）
 $subMenuBg:#1f2d3d;
 $subMenuHover:#001528;
 $subMenuActiveText:#f4f4f5;

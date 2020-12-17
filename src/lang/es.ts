@@ -1,5 +1,6 @@
 export default {
   route: {
+    demos: 'Demos',
     dashboard: 'Panel de control',
     documentation: 'Documentación',
     guide: 'Guía',
@@ -70,6 +71,7 @@ export default {
     github: 'Github',
     theme: 'Tema',
     size: 'Tamaño global',
+    guide: 'Guide',
     profile: 'Profile'
   },
   login: {
@@ -96,8 +98,38 @@ export default {
     cancel: 'Cancelar'
   },
   guide: {
+    btntext: {
+      prevBtnText: '←',
+      nextBtnText: '→',
+      doneBtnText: '✔',
+      closeBtnText: '✖'
+    },
     description: 'The guide page is useful for some people who entered the project for the first time. You can briefly introduce the features of the project. Demo is based on ',
-    button: 'Ver guía'
+    button: 'Ver guía',
+    hamburger: {
+      title: 'Hamburger',
+      desc: 'Open && Close sidebar'
+    },
+    breadcrumb: {
+      title: 'Breadcrumb',
+      desc: 'Indicate the current page location'
+    },
+    search: {
+      title: 'Page Search',
+      desc: 'Page search, quick navigation'
+    },
+    screenfull: {
+      title: 'Screenfull',
+      desc: 'Set the page into fullscreen'
+    },
+    size: {
+      title: 'Switch Size',
+      desc: 'Switch the system size'
+    },
+    tags: {
+      title: 'Tags view',
+      desc: 'The history of the page you visited'
+    }
   },
   components: {
     documentation: 'Documentación',
@@ -140,6 +172,7 @@ export default {
   errorLog: {
     tips: 'Please click the bug icon in the upper right corner',
     description: 'Now the management system are basically the form of the spa, it enhances the user experience, but it also increases the possibility of page problems, a small negligence may lead to the entire page deadlock. Fortunately Vue provides a way to catch handling exceptions, where you can handle errors or report exceptions.',
+    description2: '',
     documentation: 'Documento de introducción'
   },
   excel: {

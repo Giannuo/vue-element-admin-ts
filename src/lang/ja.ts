@@ -1,5 +1,6 @@
 export default {
   route: {
+    demos: 'デモ',
     dashboard: 'トップ',
     documentation: 'ドキュメント',
     guide: 'ガイド',
@@ -70,6 +71,7 @@ export default {
     logOut: 'ログアウト',
     profile: 'プロフィール',
     theme: 'テーマ変更',
+    guide: 'Guide',
     size: '画面サイズ'
   },
   login: {
@@ -96,8 +98,38 @@ export default {
     cancel: 'キャンセル'
   },
   guide: {
+    btntext: {
+      prevBtnText: '←',
+      nextBtnText: '→',
+      doneBtnText: '✔',
+      closeBtnText: '✖'
+    },
     description: 'ガイドは各機能の説明です。',
-    button: 'ガイドを見る'
+    button: 'ガイドを見る',
+    hamburger: {
+      title: 'Hamburger',
+      desc: 'Open && Close sidebar'
+    },
+    breadcrumb: {
+      title: 'Breadcrumb',
+      desc: 'Indicate the current page location'
+    },
+    search: {
+      title: 'Page Search',
+      desc: 'Page search, quick navigation'
+    },
+    screenfull: {
+      title: 'Screenfull',
+      desc: 'Set the page into fullscreen'
+    },
+    size: {
+      title: 'Switch Size',
+      desc: 'Switch the system size'
+    },
+    tags: {
+      title: 'Tags view',
+      desc: 'The history of the page you visited'
+    }
   },
   components: {
     documentation: 'ドキュメント',
@@ -140,6 +172,7 @@ export default {
   errorLog: {
     tips: '右上のbugアイコンをクリックしてください。',
     description: '管理画面はspaを使う場合が多い、ユーザ体現向上はできますが、想定外エラーが発生する場合があります。Vueはそのエラーハンドリング機能を提供し、エラーレポートができます。',
+    description2: '',
     documentation: 'ドキュメント'
   },
   excel: {

@@ -1,5 +1,6 @@
 export default {
   route: {
+    demos: '示例',
     dashboard: '首页',
     documentation: '文档',
     guide: '引导页',
@@ -70,6 +71,7 @@ export default {
     github: '项目地址',
     theme: '换肤',
     size: '布局大小',
+    guide: '功能引导',
     profile: '个人中心'
   },
   login: {
@@ -96,8 +98,38 @@ export default {
     cancel: '取消'
   },
   guide: {
+    btntext: {
+      prevBtnText: '←',
+      nextBtnText: '→',
+      doneBtnText: '✔',
+      closeBtnText: '✖'
+    },
     description: '引导页对于一些第一次进入项目的人很有用，你可以简单介绍下项目的功能。本 Demo 是基于',
-    button: '打开引导'
+    button: '打开引导',
+    hamburger: {
+      title: '汉堡按钮',
+      desc: '打开&&关闭`侧边栏`'
+    },
+    breadcrumb: {
+      title: '面包屑栏',
+      desc: '指示当前页面位置'
+    },
+    search: {
+      title: '页面搜索',
+      desc: '页面搜索，快捷导航'
+    },
+    screenfull: {
+      title: '全屏',
+      desc: '将页面设置为全屏'
+    },
+    size: {
+      title: '布局大小',
+      desc: '调整系统布局大小'
+    },
+    tags: {
+      title: '标签栏',
+      desc: '您访问过的页面的历史'
+    }
   },
   components: {
     documentation: '文档',
@@ -140,6 +172,7 @@ export default {
   errorLog: {
     tips: '请点击右上角bug小图标',
     description: '现在的管理后台基本都是spa的形式了，它增强了用户体验，但同时也会增加页面出问题的可能性，可能一个小小的疏忽就导致整个页面的死锁。好在 Vue 官网提供了一个方法来捕获处理异常，你可以在其中进行错误处理或者异常上报。',
+    description2: '请见代码`@/src/utils/error-log.ts`、`@/src/components/ErrorLog/index.vue`。',
     documentation: '文档介绍'
   },
   excel: {

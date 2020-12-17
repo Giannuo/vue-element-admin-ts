@@ -1,5 +1,6 @@
 export default {
   route: {
+    demos: 'Demos',
     dashboard: 'Dashboard',
     documentation: 'Documentazione',
     guide: 'Guida',
@@ -70,6 +71,7 @@ export default {
     github: 'Github',
     theme: 'Tema',
     size: 'Grandezza Globale',
+    guide: 'Guide',
     profile: 'Profilo'
   },
   login: {
@@ -96,8 +98,38 @@ export default {
     cancel: 'Annulla'
   },
   guide: {
+    btntext: {
+      prevBtnText: '←',
+      nextBtnText: '→',
+      doneBtnText: '✔',
+      closeBtnText: '✖'
+    },
     description: 'La pagina Guida è utile per alcune persone che entrano nel progetto per la prima volta. Puoi introdurre brevemente le funzionalità del progetto. Il demo è basato su ',
-    button: 'Mostra guida'
+    button: 'Mostra guida',
+    hamburger: {
+      title: 'Hamburger',
+      desc: 'Open && Close sidebar'
+    },
+    breadcrumb: {
+      title: 'Breadcrumb',
+      desc: 'Indicate the current page location'
+    },
+    search: {
+      title: 'Page Search',
+      desc: 'Page search, quick navigation'
+    },
+    screenfull: {
+      title: 'Screenfull',
+      desc: 'Set the page into fullscreen'
+    },
+    size: {
+      title: 'Switch Size',
+      desc: 'Switch the system size'
+    },
+    tags: {
+      title: 'Tags view',
+      desc: 'The history of the page you visited'
+    }
   },
   components: {
     documentation: 'Documentazione',
@@ -140,6 +172,7 @@ export default {
   errorLog: {
     tips: 'Per favore clicca l\'icona dell\'insetto nell\'angolo in alto a sinistra',
     description: 'Ora il sistema di gestione è fondamentalmente il form della spa, aumenta l\'esperienza utente, ma incrementa anche le possibilità di problemi nelle pagine, una piccola negligenza può portare al blocco della pagina. Fortunatamente Vue offre un modo di catturare le eccezioni, dove puoi manipolare gli errori o riportare un\'eccezione.',
+    description2: '',
     documentation: 'Introduzione documentazione'
   },
   excel: {

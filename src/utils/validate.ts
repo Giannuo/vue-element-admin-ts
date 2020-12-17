@@ -1,7 +1,18 @@
-export const isValidUsername = (str: string) => ['admin', 'editor'].indexOf(str.trim()) >= 0
+/*
+ * @Author: your name
+ * @Date: 2020-12-09 10:12:30
+ * @LastEditTime : 2020-12-17 11:08:14
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath     : /vue-element-admin-ts/src/utils/validate.ts
+ */
+
+/* demo判断是否有效用户名 */
+export const isDemoValidUsername = (str: string) => ['admin', 'editor'].indexOf(str.trim()) >= 0
 
 export const isExternal = (path: string) => /^(https?:|mailto:|tel:)/.test(path)
 
+/* 判断传入参数是否为数组 */
 export const isArray = (arg: any) => {
   if (typeof Array.isArray === 'undefined') {
     return Object.prototype.toString.call(arg) === '[object Array]'

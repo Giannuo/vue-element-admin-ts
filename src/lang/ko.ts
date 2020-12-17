@@ -1,5 +1,6 @@
 export default {
   route: {
+    demos: '데모',
     dashboard: '대시보드',
     documentation: '문서',
     guide: '가이드',
@@ -70,6 +71,7 @@ export default {
     logOut: '로그아웃',
     profile: '프로필',
     theme: '테마',
+    guide: 'Guide',
     size: '크기'
   },
   login: {
@@ -96,8 +98,38 @@ export default {
     cancel: '취소'
   },
   guide: {
+    btntext: {
+      prevBtnText: '←',
+      nextBtnText: '→',
+      doneBtnText: '✔',
+      closeBtnText: '✖'
+    },
     description: '각 기능에 대한 설명입니다.',
-    button: '버튼'
+    button: '버튼',
+    hamburger: {
+      title: 'Hamburger',
+      desc: 'Open && Close sidebar'
+    },
+    breadcrumb: {
+      title: 'Breadcrumb',
+      desc: 'Indicate the current page location'
+    },
+    search: {
+      title: 'Page Search',
+      desc: 'Page search, quick navigation'
+    },
+    screenfull: {
+      title: 'Screenfull',
+      desc: 'Set the page into fullscreen'
+    },
+    size: {
+      title: 'Switch Size',
+      desc: 'Switch the system size'
+    },
+    tags: {
+      title: 'Tags view',
+      desc: 'The history of the page you visited'
+    }
   },
   components: {
     documentation: '문서',
@@ -140,6 +172,7 @@ export default {
   errorLog: {
     tips: '오른쪽 상단에있는 버그 아이콘을 클릭하십시오',
     description: '이제 관리 시스템은 기본적으로 스파의 형태이며 사용자 경험을 향상 시키지만 페이지 문제의 가능성을 증가시킵니다. 작은 태만으로 인해 전체 페이지 교착 상태가 발생할 수 있습니다. 다행히 Vue는 오류를 처리하거나 예외를보고 할 수있는 예외 처리를 포착하는 방법을 제공합니다.',
+    description2: '',
     documentation: '문서 소개'
   },
   excel: {
