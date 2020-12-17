@@ -5,7 +5,7 @@ import VueRouter, { RouteConfig } from 'vue-router'
 import Layout from '@/layout/index.vue'
 
 /* Router modules */
-import demosRouter from './modules/demos'
+// import demosRouter from './modules/demos'
 
 Vue.use(VueRouter)
 
@@ -141,7 +141,7 @@ export const constantRoutes: RouteConfig[] = [
 */
 export const asyncRoutes: RouteConfig[] = [
   // 参考demos
-  demosRouter,
+  // demosRouter,
   // 各种页面请求找不到的跳转
   {
     path: '*',
