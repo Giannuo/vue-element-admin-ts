@@ -1,5 +1,5 @@
 {
-  /******************** ********************/
+  /******************** vscode plugin - korofileheader ********************/
   "fileheader.customMade": { /**** 头部注释 ****/
     "custom_string_obkoro1": "Copyright 2020 姚嘉乐（Giannuo）\r\rLicensed under the Apache License, Version 2.0 (the \"License\");\ryou may not use this file except in compliance with the License.\rYou may obtain a copy of the License at\r\r    http://www.apache.org/licenses/LICENSE-2.0\r\rUnless required by applicable law or agreed to in writing, software\rdistributed under the License is distributed on an \"AS IS\" BASIS,\rWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\rSee the License for the specific language governing permissions and\rlimitations under the License.\r",
     "Author": "Giannuo", //作者
@@ -20,7 +20,7 @@
     "wideSame": true, // 设置为true开启
     "wideNum": 13 // 字段长度 默认为13
   },
-  /******************** ********************/
+  /******************** vscode plugin - i18n Ally 2.4.13 ********************/
   "i18n-ally.localesPaths": [
     "src/lang"
   ],
@@ -34,6 +34,6 @@
   "i18n-ally.keystyle": "nested",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true, // 文件保存时，按照eslint规则格式化
-  },
-  "compile-hero.disable-compile-files-on-did-save-code": true
+  }
+  /******************** ********************/
 }
